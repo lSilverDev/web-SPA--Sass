@@ -3,7 +3,7 @@
 #servicos {
     margin: 80px;
     h3{
-        font-size: $tamanho-do-testo / 2.5;
+        font-size: $tamanho-do-texto / 2.5;
         color: $cor-segundaria;
         text-transform: uppercase;
         font-weight: 300;
@@ -12,7 +12,7 @@
     }
     h4{
         text-align: center;
-        font-size: $tamanho-do-testo / 1.2;
+        font-size: $tamanho-do-texto / 1.2;
         margin-bottom: 80px;
         font-weight: 300;
     }
@@ -23,14 +23,14 @@
             width: 360px;
             text-align: center;
             h5{
-                font-size: $tamanho-do-testo / 1.5;
+                font-size: $tamanho-do-texto / 1.5;
                 font-weight: 300;
                 margin-top: 25px;
                 margin-bottom: 20px;
                 color: $cor-segundaria;
             }
             p{
-                font-size: $tamanho-do-testo / 3;
+                font-size: $tamanho-do-texto / 3;
                 font-weight: 300;
                 color: $cor-segundaria;
                 line-height: 1.25rem;
