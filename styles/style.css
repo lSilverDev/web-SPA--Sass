@@ -1,4 +1,3 @@
-@import './abstract/_variaveis.css';
 html, body {
   font-family: "Roboto", sans-serif;
 }
@@ -143,14 +142,29 @@ nav ul li a:hover {
   background-color: #5BC0F8;
 }
 
-footer {
-  text-align: center;
-  font-size: 1.5rem;
-  border-top: 2px solid #FFC93C;
-  margin-top: 1rem;
-  padding: 1.2rem;
-  background: linear-gradient(to left, #FFC93C, #0081C9, #5BC0F8);
+#sobre {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
 }
-footer i {
-  color: red;
+#sobre .img-container {
+  padding: 2rem;
+}
+#sobre .img-container img {
+  width: 100%;
+}
+#sobre .text-container h3 {
+  text-align: center;
+  color: #0081C9;
+  font-weight: 300;
+}
+#sobre .text-container h4 {
+  text-align: center;
+  color: #5BC0F8;
+  font-weight: 300;
+}
+#sobre .text-container p {
+  text-align: center;
+  color: #5BC0F8;
+  font-weight: 300;
 }/*# sourceMappingURL=style.css.map */
