@@ -1,3 +1,4 @@
+@import './abstract/_variaveis.css';
 html, body {
   font-family: "Roboto", sans-serif;
 }
@@ -140,4 +141,16 @@ nav ul li a:hover {
 #cupom .inscricao button:hover {
   color: #0081C9;
   background-color: #5BC0F8;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.5rem;
+  border-top: 2px solid #FFC93C;
+  margin-top: 1rem;
+  padding: 1.2rem;
+  background: linear-gradient(to left, #FFC93C, #0081C9, #5BC0F8);
+}
+footer i {
+  color: red;
 }/*# sourceMappingURL=style.css.map */
