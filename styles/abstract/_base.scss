@@ -1,4 +1,6 @@
+@import './variaveis';
+
 html, body{
-    font-family: 'Roboto', sans-serif;
+    font-family: $font;
 }
 
